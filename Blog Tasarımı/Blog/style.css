@@ -1,0 +1,568 @@
+::-moz-selection 
+{
+    background: #333333;
+    color: #ffffff;
+}
+
+::selection 
+{
+    background: #333333;
+    color: #ffffff;
+}
+
+.temizlik
+{
+	clear: both;
+}
+
+body
+{
+	background :#ffffff;
+	color :#111111;
+}
+
+.header
+{
+	float: left;
+	width: 100%;
+	height: 85px;
+	background: #111111;
+	/* header ile search arasında 35 piksel boşluk bıraktım */
+	margin-bottom: 35px;
+}
+
+.header-ortala
+{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.header-ortala-logo
+{
+	float: left;
+	margin-top: 35px;
+}
+
+.header-ortala-menu ul
+{
+	float: right;
+}
+
+.header-ortala-menu ul li
+{
+	float: right;
+	padding-left: 20px;
+}
+
+.header-ortala-menu ul li a
+{
+
+    opacity: 0.9;
+	color: #ffffff;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: small-caps;
+	font-size: 0.75em;
+	line-height: 85px; 
+}
+
+.header-ortala-menu ul li a:hover
+{
+	transition: all 0.5s ease 0s;
+	color: #888888;
+}
+
+.genel
+{
+	width: 1100px;
+	margin: 0px auto;
+}
+
+.search
+{
+	float: left;
+	width: 1100px;
+	height: 43px;             /* Ben ekledim */
+	background: #ffffff;
+	margin-bottom: 55px;
+	border-bottom: 2px solid #111111;
+}
+
+
+.search form
+{
+	width: 1100px;
+	height: 40px;
+	overflow: hidden;
+	line-height: 40px; /* BURAYAI DÜZENLE */
+	background: transparent;
+}
+
+.search input
+{
+	width: 1050px;
+	height: 40px;
+	font-size: 36px;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.search button
+{
+	background: url(svg/search.svg);
+	width: 40px;
+	height: 50px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.icerik
+{
+	float: left;
+	width: 1100px;
+	height: 275px;             /* Ben ekledim */
+	background: #ffffff;
+	margin-bottom: 65px; 
+}
+
+.icerik img
+{
+	float: left;
+	width: 490px;
+	height: 275px;
+}
+
+.icerik-baslik
+{
+	float: left;
+	width: 590px;
+	padding-left: 20px;
+}
+
+.icerik-baslik h2
+{
+	font-size: 36px;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.icerik-baslik h2 a
+{
+	color: #111111;
+}
+
+.icerik-baslik h2 a:hover
+{
+	transition: all 0.5s ease 0s;
+	color: #777777;
+}
+
+.icerik-tarih
+{
+	float: left;
+	width: 590px;
+	padding-left: 20px;
+	color: #111111;
+	line-height: normal;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.icerik-metin
+{
+	float: left;
+	width: 590px;
+	padding-left: 20px;
+	color: #111111;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.devam
+{
+	color: #111111;
+}
+
+.sayfa
+{
+	float: left;
+	width: 1100px;
+	height: 40px;
+	margin-bottom: 70px;
+	background: transparent;
+}
+
+.sayfa-sol ul
+{
+	list-style: none;
+	float: left;
+}
+
+.sayfa-sol ul li
+{
+	float: left;
+}
+
+.sayfa-sol ul li a.sol
+{
+	text-indent: -9999px;
+	display: block;
+    background: url(svg/sol_icon.svg) no-repeat;
+    width: 23px;
+    height: 46px;
+    transition: all 0.5s ease 0s;
+}
+
+.sayfa-sol ul li a.sol:hover
+{
+	background: url(svg/sol_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+
+.sayfa-sag ul
+{
+	list-style: none;
+	float: right;
+}
+
+.sayfa-sag ul li
+{
+	float: right;
+}
+
+.sayfa-sag ul li a.sag
+{
+	text-indent: -9999px;
+	display: block;
+    background: url(svg/sag_icon.svg) no-repeat;
+    width: 23px;
+    height: 46px;
+    transition: all 0.5s ease 0s;
+}
+
+.sayfa-sag ul li a.sag:hover
+{
+	background: url(svg/sag_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+footer
+{
+	float: left;
+	width: 100%;
+	height: auto;
+	background: #111111;
+}
+
+.footer
+{
+	width: 1200px;
+	margin: 60px auto;
+}
+
+.bilesen1
+{
+	float: left;
+	width: 400px;
+	height: 235px;
+	background: transparent;
+}
+
+.bilesen2
+{
+	float: left;
+	width: 398px;
+	height: 235px;
+	background: transparent;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+}
+
+.bilesen3
+{
+	float: left;
+	width: 370px;
+	height: 235px;
+	background: transparent;
+}
+
+.bilesen4
+{
+	float: left;
+	width: 1200px;
+	height: 75px;
+	background: transparent;
+	margin-top: 60px;
+	border-top: 1px solid #333333;
+}
+
+#sosyal-icon ul 
+{
+	list-style: none;
+	float: right;
+}
+
+#sosyal-icon ul li 
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 26.5px;
+}
+
+#sosyal-icon ul li a.facebook
+{
+	text-indent: -9999px;
+	display: block;
+    background: url(svg/facebook_icon.svg) no-repeat;
+    width: 22px;
+    height: 22px;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.facebook:hover 
+{
+    background: url(svg/facebook_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.twitter
+{
+	text-indent: -9999px;
+    display: block;
+    background: url(svg/twitter_icon.svg) no-repeat;
+    width: 26.4px;
+    height: 22px;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.twitter:hover 
+{
+    background: url(svg/twitter_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.google
+{
+	text-indent: -9999px;
+    display: block;
+    background: url(svg/google_icon.svg) no-repeat;
+    width: 34.571px;
+    height: 22px;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.google:hover 
+{
+    background: url(svg/google_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.linkedin
+{
+	text-indent: -9999px;
+    display: block;
+    background: url(svg/linkedin_icon.svg) no-repeat;
+    width: 24.2px;
+    height: 22px;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.linkedin:hover 
+{
+    background: url(svg/linkedin_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.github
+{
+	text-indent: -9999px;
+    display: block;
+    background: url(svg/github_icon.svg) no-repeat;
+    width: 22.468px;
+    height: 22px;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.github:hover 
+{
+    background: url(svg/github_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.behance
+{
+	text-indent: -9999px;
+    display: block;
+    background: url(svg/behance_icon.svg) no-repeat;
+    width: 35.2px;
+    height: 22px;
+    transition: all 0.5s ease 0s;
+}
+
+#sosyal-icon ul li a.behance:hover 
+{
+    background: url(svg/behance_icon_b.svg) no-repeat;
+    transition: all 0.5s ease 0s;
+}
+
+.icerik-sayfa
+{
+	float: left;
+	width: 1100px;
+	height: auto;
+	background: #ffffff;
+}
+
+.icerik-sayfa img
+{
+	float: right;
+	width: 490px;
+	height: 275px;
+	margin-left: 20px;
+	margin-bottom: : 20px;
+}
+
+.icerik-sayfa-baslik
+{
+	float: left;
+	width: 1100px;
+}
+
+.icerik-sayfa-baslik h2
+{
+	font-size: 36px;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.icerik-sayfa-tarih
+{
+	float: left;
+	width: 1100px;
+	color: #111111;
+	line-height: normal;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.icerik-sayfa-metin
+{
+	float: left;
+	color: #111111;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.icerik-sayfa-metin p
+{
+	margin-bottom: 30px;
+}
+
+.yorum-baslik
+{
+	float: left;
+	width: 1100px;
+	margin-bottom: 40px;
+}
+
+.yorum-baslik h2
+{
+	font-size: 25px;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.yorum-isim
+{
+	float: left;
+	width: 1100px;
+	height: 43px;             /* Ben ekledim */
+	background: #ffffff;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #111111;
+}
+
+
+.yorum-isim form
+{
+	width: 1100px;
+	height: 40px;
+	overflow: hidden;
+	line-height: 40px; /* BURAYAI DÜZENLE */
+	background: transparent;
+}
+
+.yorum-isim input
+{
+	width: 1100px;
+	height: 40px;
+	font-size: 36px;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.yorum-mail
+{
+	float: left;
+	width: 1100px;
+	height: 43px;             /* Ben ekledim */
+	background: #ffffff;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #111111;
+}
+
+
+.yorum-mail form
+{
+	width: 1100px;
+	height: 40px;
+	overflow: hidden;
+	line-height: 40px; /* BURAYAI DÜZENLE */
+	background: transparent;
+}
+
+.yorum-mail input
+{
+	width: 1100px;
+	height: 40px;
+	font-size: 36px;
+	background: none;
+	border: none;
+	outline: none;
+}
+.....
+.yorum-metin
+{
+	float: left;
+	width: 1100px;
+}
+
+.yorum-metin form textarea
+{
+	width: 1096px;
+	border: none;
+	color: #111111;
+	font-size: 36px;
+	font-family: Arial;
+	border-bottom: 2px solid #111111;
+	background: none;
+	outline: none;
+}
+
+.yorum-button
+{
+	border-bottom: 50px;
+}

@@ -1,0 +1,11 @@
+<svg id="katman_1" data-name="katman 1" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #666;
+      }
+    </style>
+  </defs>
+  <title>facebook_icon</title>
+  <path id="Facebook" class="cls-1" d="M23.5,22.29a1.21,1.21,0,0,1-1.21,1.21H16.68V15h2.86L20,11.66H16.68V9.54c0-1,.27-1.62,1.65-1.62h1.76V5a23.5,23.5,0,0,0-2.56-.13,4,4,0,0,0-4.27,4.39v2.45H10.38V15h2.87V23.5H2.71A1.21,1.21,0,0,1,1.5,22.29V2.71A1.21,1.21,0,0,1,2.71,1.5H22.29A1.21,1.21,0,0,1,23.5,2.71Z" transform="translate(-1.5 -1.5)"/>
+</svg>
